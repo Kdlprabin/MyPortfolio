@@ -21,14 +21,28 @@ body{
     font-weight: bold;
     text-align: center;
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:700px) {
     #intro{
-        font-size: 4vw;
+        font-size: 5vw;
     }
     #name{
         font-size: 6vw;
     }
     #projectStatus button{
         margin-top:2vw;
+    }
+}
+@media screen and (max-width:400px){
+    #intro{
+        font-size: 7vw;
+    }
+    #name{
+        font-size: 9vw;
+    }
+    #projectStatus button{
+        margin-top:2vw;
+    }
+    #photo{
+        display:collapse;
     }
 }
