@@ -1,15 +1,17 @@
 *{
     margin:0px;
     padding:0px;
+    color: white;
 }
 body{
     margin: 5px 0px;
+    background-color:rgb(35, 33, 33);
 }
 .sidebar{
-    background-color:grey;
     width: 25vw;
     font-size: 4vw;
     padding: 2vh;
+    border-radius: 0px 5px 0px 0px;
 }
 .sidebar nav{
     font-size: 3vw;
@@ -21,30 +23,83 @@ body{
 .container{
     display:flex;
 }
+.upper-sidebar{
+    background-color:rgba(41, 42, 50, 0.502);
+    padding: 10px;
+}
 .photo img{
-    width:10vw;
+    width:8vw;
     background-color:black;
     border-radius:50%;
 }
 /* reuse part */
 .small{
-    font-size:2vw;
+    font-size:1.5vw;
 }
 .little{
     font-size: 1vw;
 }
 .big{
-    font-size:4vw;
+    font-size:3vw;
 }
 .center{
     text-align:center;
 }
 .no-disk{
-    list-style: none;
     list-style-type: none;
 }
 .flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.j-left{
+    text-align:left;
+}
+.j-right{
+    text-align:right;
+}
+.bold{
+    font-weight:bold;
+}
+/* functionality    */
+.lang{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 4px solid yellow;
+}
+
+.cir{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar{
+    background-color:black;
+    height: 3px;
+    border-radius: 20px;
+}
+.Bper{
+    background-color:yellow;
+    height: 3px;
+    border-radius: 20px;
+}
+
+#bar1{width: 95%;}
+#bar2{width: 90%;}
+#bar3{width: 70%;}
+#bar4{width: 60%;}
+#bar5{width: 80%;}
+
+.programmingLangs{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.cir{
+    margin: 15px 0px;
+    line-height: 20px;
 }
