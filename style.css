@@ -1,15 +1,50 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin: 5px 0px;
 }
 .sidebar{
-    background-color:red;
-    width: 20vw;
+    background-color:grey;
+    width: 25vw;
+    font-size: 4vw;
+    padding: 2vh;
+}
+.sidebar nav{
+    font-size: 3vw;
 }
 .main{
     background-color: yellow;
-    width: 80vw;
+    width: 75vw;
 }
 .container{
     display:flex;
+}
+.photo img{
+    width:10vw;
+    background-color:black;
+    border-radius:50%;
+}
+/* reuse part */
+.small{
+    font-size:2vw;
+}
+.little{
+    font-size: 1vw;
+}
+.big{
+    font-size:4vw;
+}
+.center{
+    text-align:center;
+}
+.no-disk{
+    list-style: none;
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
