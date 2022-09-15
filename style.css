@@ -29,7 +29,7 @@ body{
     padding: 10px;
 }
 .photo img{
-    width:8vw;
+    width:6vw;
     background-color:black;
     border-radius:50%;
 }
@@ -42,6 +42,9 @@ body{
 }
 .big{
     font-size:3vw;
+}
+.biggest{
+    font-size: 5vw;
 }
 .center{
     text-align:center;
@@ -119,9 +122,12 @@ body{
 
 /* carousel  */
 .carousel{
-    background-color:red;
+    background-image:url("images/backgroundImage.gif");
+    background-size: cover;
+    backface-visibility: 50%;
     height: 40vh;
     border-radius:5px;
+    display: flex;
 }
 
 .projects{
@@ -137,4 +143,10 @@ body{
     width: 25vw;
     margin: 5px;
     border-radius:5px;
+}
+.tagline{
+    margin: 30px 10px 20px;
+}
+.carousel img{
+    height:40vh;
 }
