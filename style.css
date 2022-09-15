@@ -17,8 +17,9 @@ body{
     font-size: 3vw;
 }
 .main{
-    background-color: yellow;
+    background-color: rgb(17, 28, 64);
     width: 75vw;
+    margin: 10px;
 }
 .container{
     display:flex;
@@ -98,8 +99,42 @@ body{
     display: flex;
     flex-direction: column;
     text-align:left;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+
+.language{
+    margin-top: 20px;
 }
 .cir{
     margin: 15px 0px;
     line-height: 20px;
+}
+
+/* details  */
+
+.details ul li{
+    margin-top: 5px ;
+}
+
+/* carousel  */
+.carousel{
+    background-color:red;
+    height: 40vh;
+    border-radius:5px;
+}
+
+.projects{
+    background-color:yellow;
+    height: 5vh;
+}
+.services-grid{
+    display: flex;
+}
+.service{
+    background-color:green;
+    height: 45vh;
+    width: 25vw;
+    margin: 5px;
+    border-radius:5px;
 }
