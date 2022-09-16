@@ -17,7 +17,7 @@ body{
     font-size: 3vw;
 }
 .main{
-    background-color: rgb(17, 28, 64);
+    background-color: rgb(26, 30, 43);
     width: 75vw;
     margin: 10px;
 }
@@ -131,17 +131,17 @@ body{
 }
 
 .projects{
-    background-color:yellow;
+    padding: 10px;
     height: 5vh;
 }
 .services-grid{
     display: flex;
 }
 .service{
-    background-color:green;
+    background-color:rgba(25, 33, 58, 0.76);
     height: 45vh;
     width: 25vw;
-    margin: 5px;
+    margin: 2vh;
     border-radius:5px;
 }
 .tagline{
