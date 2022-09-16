@@ -2,15 +2,15 @@
     margin:0px;
     padding:0px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     margin: 5px 0px;
     background-color:rgb(35, 33, 33);
 }
 .sidebar{
-    width: 25vw;
+    margin: 0vh 2vh 0vh;
     font-size: 4vw;
-    padding: 2vh;
     border-radius: 0px 5px 0px 0px;
 }
 .sidebar nav{
@@ -149,4 +149,11 @@ body{
 }
 .carousel img{
     height:40vh;
+}
+hr{
+    border: 2px solid white;
+    background-color:white;
+}
+.pad{
+    padding:1.6vh;
 }
